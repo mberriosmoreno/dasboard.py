@@ -11,6 +11,8 @@ def show_shape_image(shape):
             image = Image.open("Logo\Triangulo.png")
         elif shape == "Círculo":
             image = Image.open("Logo\Circulo.png")
+        elif shape == "Rombo":
+            image = Image.open("Logo\Rombo.png")
         st.image(image, caption=shape, use_column_width=True)
 
 # Función para calcular el área del cuadrado
